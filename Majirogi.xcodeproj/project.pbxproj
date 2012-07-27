@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A5E467015C305350082B270 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A5E466F15C305350082B270 /* Cocoa.framework */; };
+		5A5E467A15C305350082B270 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5A5E467815C305350082B270 /* InfoPlist.strings */; };
+		5A5E467C15C305350082B270 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5E467B15C305350082B270 /* main.m */; };
+		5A5E468015C305350082B270 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5A5E467E15C305350082B270 /* Credits.rtf */; };
+		5A5E468315C305350082B270 /* IIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5E468215C305350082B270 /* IIAppDelegate.m */; };
+		5A5E468615C305350082B270 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A5E468415C305350082B270 /* MainMenu.xib */; };
+		5A5E468E15C3062C0082B270 /* IICursorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A5E468D15C3062C0082B270 /* IICursorView.m */; };
+		5A5E469015C30A220082B270 /* statusicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A5E468F15C30A220082B270 /* statusicon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A5E466B15C305350082B270 /* Majirogi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Majirogi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A5E466F15C305350082B270 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5A5E467215C305350082B270 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5A5E467315C305350082B270 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5A5E467415C305350082B270 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5A5E467715C305350082B270 /* Majirogi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Majirogi-Info.plist"; sourceTree = "<group>"; };
+		5A5E467915C305350082B270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5A5E467B15C305350082B270 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5A5E467D15C305350082B270 /* Majirogi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Majirogi-Prefix.pch"; sourceTree = "<group>"; };
+		5A5E467F15C305350082B270 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5A5E468115C305350082B270 /* IIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IIAppDelegate.h; sourceTree = "<group>"; };
+		5A5E468215C305350082B270 /* IIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IIAppDelegate.m; sourceTree = "<group>"; };
+		5A5E468515C305350082B270 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5A5E468C15C3062C0082B270 /* IICursorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IICursorView.h; sourceTree = "<group>"; };
+		5A5E468D15C3062C0082B270 /* IICursorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IICursorView.m; sourceTree = "<group>"; };
+		5A5E468F15C30A220082B270 /* statusicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusicon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A5E466815C305350082B270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5E467015C305350082B270 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A5E466015C305340082B270 = {
+			isa = PBXGroup;
+			children = (
+				5A5E467515C305350082B270 /* Majirogi */,
+				5A5E466E15C305350082B270 /* Frameworks */,
+				5A5E466C15C305350082B270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A5E466C15C305350082B270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A5E466B15C305350082B270 /* Majirogi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A5E466E15C305350082B270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A5E466F15C305350082B270 /* Cocoa.framework */,
+				5A5E467115C305350082B270 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A5E467115C305350082B270 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A5E467215C305350082B270 /* AppKit.framework */,
+				5A5E467315C305350082B270 /* CoreData.framework */,
+				5A5E467415C305350082B270 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5A5E467515C305350082B270 /* Majirogi */ = {
+			isa = PBXGroup;
+			children = (
+				5A5E468F15C30A220082B270 /* statusicon.png */,
+				5A5E468C15C3062C0082B270 /* IICursorView.h */,
+				5A5E468D15C3062C0082B270 /* IICursorView.m */,
+				5A5E468115C305350082B270 /* IIAppDelegate.h */,
+				5A5E468215C305350082B270 /* IIAppDelegate.m */,
+				5A5E468415C305350082B270 /* MainMenu.xib */,
+				5A5E467615C305350082B270 /* Supporting Files */,
+			);
+			path = Majirogi;
+			sourceTree = "<group>";
+		};
+		5A5E467615C305350082B270 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A5E467715C305350082B270 /* Majirogi-Info.plist */,
+				5A5E467815C305350082B270 /* InfoPlist.strings */,
+				5A5E467B15C305350082B270 /* main.m */,
+				5A5E467D15C305350082B270 /* Majirogi-Prefix.pch */,
+				5A5E467E15C305350082B270 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A5E466A15C305350082B270 /* Majirogi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A5E468915C305350082B270 /* Build configuration list for PBXNativeTarget "Majirogi" */;
+			buildPhases = (
+				5A5E466715C305350082B270 /* Sources */,
+				5A5E466815C305350082B270 /* Frameworks */,
+				5A5E466915C305350082B270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Majirogi;
+			productName = Majirogi;
+			productReference = 5A5E466B15C305350082B270 /* Majirogi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A5E466215C305340082B270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = II;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Y.Okamura;
+			};
+			buildConfigurationList = 5A5E466515C305340082B270 /* Build configuration list for PBXProject "Majirogi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A5E466015C305340082B270;
+			productRefGroup = 5A5E466C15C305350082B270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A5E466A15C305350082B270 /* Majirogi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A5E466915C305350082B270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5E467A15C305350082B270 /* InfoPlist.strings in Resources */,
+				5A5E468015C305350082B270 /* Credits.rtf in Resources */,
+				5A5E468615C305350082B270 /* MainMenu.xib in Resources */,
+				5A5E469015C30A220082B270 /* statusicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A5E466715C305350082B270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A5E467C15C305350082B270 /* main.m in Sources */,
+				5A5E468315C305350082B270 /* IIAppDelegate.m in Sources */,
+				5A5E468E15C3062C0082B270 /* IICursorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5A5E467815C305350082B270 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A5E467915C305350082B270 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5A5E467E15C305350082B270 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A5E467F15C305350082B270 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5A5E468415C305350082B270 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A5E468515C305350082B270 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A5E468715C305350082B270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5A5E468815C305350082B270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5A5E468A15C305350082B270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Majirogi/Majirogi-Prefix.pch";
+				INFOPLIST_FILE = "Majirogi/Majirogi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5A5E468B15C305350082B270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Majirogi/Majirogi-Prefix.pch";
+				INFOPLIST_FILE = "Majirogi/Majirogi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A5E466515C305340082B270 /* Build configuration list for PBXProject "Majirogi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5E468715C305350082B270 /* Debug */,
+				5A5E468815C305350082B270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A5E468915C305350082B270 /* Build configuration list for PBXNativeTarget "Majirogi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A5E468A15C305350082B270 /* Debug */,
+				5A5E468B15C305350082B270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A5E466215C305340082B270 /* Project object */;
+}

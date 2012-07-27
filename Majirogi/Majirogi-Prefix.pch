@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Majirogi' target in the 'Majirogi' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
