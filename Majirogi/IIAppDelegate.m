@@ -22,7 +22,7 @@
 
 - (void)awakeFromNib
 {
-    NSLog(@"%@", statusMenu);
+    
 }
 
 - (void)redisplay:(id)obj
@@ -40,12 +40,10 @@
     [statusItem setTitle:@""];
     [statusItem setImage:[[NSImage alloc] initWithContentsOfURL:[[NSBundle mainBundle] URLForImageResource:@"statusicon"]]];
     [statusItem setHighlightMode:YES];
-    NSLog(@"%@", statusMenu);
     [statusItem setMenu:statusMenu];
 }
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    NSLog(@"%@", statusMenu);
     for (NSScreen *screen in [NSScreen screens]) {
         IICursorView *cview = [[IICursorView alloc] initWithFrame:[screen frame]];
         NSWindow *fwindow = [[NSWindow alloc] initWithContentRect:[screen frame]
